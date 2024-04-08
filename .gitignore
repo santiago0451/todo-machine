@@ -24,3 +24,10 @@ yarn-error.log*
 
 # vscode
 .vscode
+
+# next
+
+.next
+next-env.d.ts
+dist
+
