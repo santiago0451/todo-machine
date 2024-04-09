@@ -1,7 +1,6 @@
-import React from "react";
 import { TodoIcon } from ".";
 
-function CompleteIcon({ completed, onComplete }) {
+export function CompleteIcon({ completed, onComplete }) {
   return (
     <TodoIcon
       type="check"
@@ -10,5 +9,3 @@ function CompleteIcon({ completed, onComplete }) {
     />
   );
 }
-
-export { CompleteIcon };

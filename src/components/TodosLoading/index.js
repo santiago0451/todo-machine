@@ -1,16 +1,13 @@
-import React from 'react';
-import './TodosLoading.css'
+import "./TodosLoading.css";
 
-function TodosLoading() {
+export function TodosLoading() {
   return (
-    <div className='LoadingTodo-container'>
-      <span className='LoadingTodo-completeIcon'></span>
+    <div className="LoadingTodo-container">
+      <span className="LoadingTodo-completeIcon"></span>
 
-      <p className='LoadingTodo-text'></p>
+      <p className="LoadingTodo-text"></p>
 
-      <span className='LoadingTodo-deleteIcon'></span>
+      <span className="LoadingTodo-deleteIcon"></span>
     </div>
   );
 }
-
-export { TodosLoading };

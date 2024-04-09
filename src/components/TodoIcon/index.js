@@ -3,8 +3,8 @@ import DeleteIcon from "./icons/DeleteIcon";
 import "./TodoIcon.css";
 
 const iconTypes = {
-  check: (color) => <CheckIcon />,
-  delete: (color) => <DeleteIcon />,
+  check: (color) => <CheckIcon fill={color} />,
+  delete: (color) => <DeleteIcon fill={color} />,
 };
 
 function TodoIcon({ type, color, onClick }) {
