@@ -1,17 +1,17 @@
 "use client";
 
 import React from "react";
-import { TodoCounter } from "../TodoCounter";
-import { TodoSearch } from "../TodoSearch";
-import { TodoList } from "../TodoList";
-import { TodoItem } from "../TodoItem";
-import { TodosLoading } from "../TodosLoading";
-import { TodosError } from "../TodosError";
-import { EmptyTodos } from "../EmptyTodos";
-import { CreateTodoButton } from "../CreateTodoButton";
-import { TodoForm } from "../TodoForm";
-import { Modal } from "../Modal";
-import { TodoContext } from "../TodoContext";
+import { TodoCounter } from "../components/TodoCounter";
+import { TodoSearch } from "../components/TodoSearch";
+import { TodoList } from "../components/TodoList";
+import { TodoItem } from "../components/TodoItem";
+import { TodosLoading } from "../components/TodosLoading";
+import { TodosError } from "../components/TodosError";
+import { EmptyTodos } from "../components/EmptyTodos";
+import { CreateTodoButton } from "../components/CreateTodoButton";
+import { TodoForm } from "../components/TodoForm";
+import { Modal } from "../components/Modal";
+import { TodoContext } from "../components/TodoContext";
 
 function AppUI() {
   const {
