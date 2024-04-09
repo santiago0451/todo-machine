@@ -3,12 +3,11 @@ import { TodoIcon } from "./";
 
 function CompleteIcon({ completed, onComplete }) {
   return (
-    <></>
-    // <TodoIcon
-    //   type='check'
-    //   color={completed ? 'green' : 'gray'}
-    //   onClick={onComplete}
-    // />
+    <TodoIcon
+      type="check"
+      color={completed ? "green" : "gray"}
+      onClick={onComplete}
+    />
   );
 }
 
