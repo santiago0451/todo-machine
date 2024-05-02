@@ -1,4 +1,4 @@
-import { AppUI } from "./appUI";
+import { AppUI } from "./app-ui";
 import { TodoProvider } from "../components/TodoContext";
 
 function App() {
