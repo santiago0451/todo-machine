@@ -1,22 +1,30 @@
+:root {
+  --black: #000000;
+  --blue-dark: #14213d;
+  --orange: #fca311;
+  --gray-light: #e5e5e5;
+  --white: #ffffff;
+}
+
 .TodoSearch {
-  background: #F9FBFC;
+  background: var(--white);
   border-radius: 2px;
-  border: 2px solid #202329;
+  border: 2px solid var(--blue-dark);
   margin: 0 24px;
   height: 64px;
   width: calc(100% - 62px);
   font-size: 24px;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 400;
-  color: #1E1E1F;
+  color: #1e1e1f;
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
 }
 .TodoSearch::placeholder {
-  color: #A5A5A5;
-  font-family: 'Montserrat';
+  color: #a5a5a5;
+  font-family: "Montserrat";
   font-weight: 400;
 }
 .TodoSearch:focus {
-  outline-color: #61DAFA;
+  outline-color: var(--orange);
 }

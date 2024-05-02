@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { Header } from "../components/Header";
 import { TodoCounter } from "../components/TodoCounter";
 import { TodoSearch } from "../components/TodoSearch";
 import { TodoList } from "../components/TodoList";
@@ -26,6 +27,7 @@ function AppUI() {
 
   return (
     <>
+      <Header />
       <TodoCounter />
       <TodoSearch />
 

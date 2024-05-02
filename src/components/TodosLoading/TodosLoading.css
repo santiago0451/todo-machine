@@ -1,3 +1,11 @@
+:root {
+  --black: #000000;
+  --blue-dark: #14213d;
+  --orange: #fca311;
+  --gray-light: #e5e5e5;
+  --white: #ffffff;
+}
+
 .LoadingTodo-container {
   position: relative;
   display: flex;
@@ -15,7 +23,8 @@
   line-height: 24px;
   font-weight: 400;
 }
-.LoadingTodo-completeIcon, .LoadingTodo-deleteIcon {
+.LoadingTodo-completeIcon,
+.LoadingTodo-deleteIcon {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -36,7 +45,11 @@
 .LoadingTodo-container,
 .LoadingTodo-completeIcon,
 .LoadingTodo-deleteIcon {
-  background: linear-gradient(90 deg, rgba(250,250,250,1), rgb(200, 199, 199));
+  background: linear-gradient(
+    90 deg,
+    rgba(250, 250, 250, 1),
+    rgb(200, 199, 199)
+  );
   background-size: 400% 400%;
   animation: loadingAnimation 3s ease-in-out infinite;
 }
