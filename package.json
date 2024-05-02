@@ -1,39 +1,24 @@
 {
   "name": "todo-machine",
   "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "eslint": "^9.0.0",
     "next": "^14.1.4",
     "react": "^18",
     "react-dom": "^18",
     "typescript": "^5.4.4"
   },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "homepage": "https://santiago0451.github.io/react-intro-course",
   "devDependencies": {
-    "@types/node": "20.12.5",
-    "@types/react": "18.2.74",
-    "gh-pages": "^5.0.0"
+    "@types/node": "20.12.8",
+    "@types/react": "18.3.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "5.4.5"
   }
 }
