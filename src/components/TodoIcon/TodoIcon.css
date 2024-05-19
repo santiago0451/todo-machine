@@ -8,35 +8,18 @@
 
 .Icon-container {
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 48px;
-  width: 48px;
-  font-size: 24px;
+  height: 1.2rem;
+  width: 1.2rem;
 }
-.Icon-container-check {
-  position: absolute;
-  left: 12px;
+.Icon-container svg {
+  fill: gray;
 }
-.Icon-container-check--active {
-  color: #4caf50;
+.Icon-container-completed svg {
+  fill: #4caf50;
 }
-.Icon-container-delete {
-  position: absolute;
-  top: -17px;
-  right: 0;
+.Icon-container-check:hover svg {
+  fill: #4caf50;
 }
-.Icon-container-delete:hover {
-  color: red;
-}
-.Icon-svg {
-  width: 24px;
-  height: 24px;
-}
-.Icon-container-check:hover .Icon-svg {
-  fill: green;
-}
-.Icon-container-delete:hover .Icon-svg {
+.Icon-container-delete:hover svg {
   fill: red;
 }

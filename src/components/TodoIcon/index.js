@@ -3,14 +3,19 @@ import DeleteIcon from "./icons/DeleteIcon";
 import "./TodoIcon.css";
 
 const iconTypes = {
-  check: (color) => <CheckIcon fill={color} />,
-  delete: (color) => <DeleteIcon fill={color} />,
+  check: <CheckIcon />,
+  delete: <DeleteIcon />,
 };
 
-function TodoIcon({ type, color, onClick }) {
+function TodoIcon({ type, onClick, completed }) {
   return (
-    <span className={`Icon-container Icon-container-${type}`} onClick={onClick}>
-      {iconTypes[type](color)}
+    <span
+      className={`Icon-container Icon-container-${type} ${
+        completed ? "Icon-container-completed" : ""
+      }`}
+      onClick={onClick}
+    >
+      {iconTypes[type]}
     </span>
   );
 }

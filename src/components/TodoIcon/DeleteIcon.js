@@ -1,5 +1,5 @@
 import { TodoIcon } from ".";
 
 export function DeleteIcon({ onDelete }) {
-  return <TodoIcon type="delete" color="gray" onClick={onDelete} />;
+  return <TodoIcon type="delete" onClick={onDelete} />;
 }

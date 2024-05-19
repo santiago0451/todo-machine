@@ -6,12 +6,12 @@
   --white: #ffffff;
 }
 
-h1 {
-  color: var(--black);
-  margin-left: 24px;
+header {
+  border-bottom: 1px solid;
 }
 
-hr.solid {
-  margin-bottom: 0;
-  border-top: 3px solid var(--blue-dark);
+h1 {
+  color: var(--black);
+  padding-left: 1rem;
+  font-size: 1.3rem;
 }
