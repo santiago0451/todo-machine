@@ -23,9 +23,18 @@
   height: 52px;
   width: 52px;
   z-index: 1;
+  transform: rotate(0);
   transition: 0.3s ease;
 }
 .CreateTodoButton:hover {
   transform: rotate(224deg);
   background-color: var(--orange);
+}
+@media screen and (max-width: 768px) {
+  .CreateTodoButton {
+    transform: 0;
+  }
+  .CreateTodoButton:hover {
+    transform: 0;
+  }
 }
