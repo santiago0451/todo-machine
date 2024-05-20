@@ -23,7 +23,6 @@
   height: 52px;
   width: 52px;
   z-index: 1;
-  transform: rotate(0);
   transition: 0.3s ease;
 }
 .CreateTodoButton:hover {
