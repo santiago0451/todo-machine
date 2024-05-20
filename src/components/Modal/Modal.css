@@ -18,3 +18,8 @@
   right: 0;
   bottom: 0;
 }
+@media screen and (max-width: 768px) {
+  .ModalBackground {
+    padding-inline: 16px;
+  }
+}

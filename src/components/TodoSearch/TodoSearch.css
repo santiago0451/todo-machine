@@ -11,8 +11,7 @@
   background: var(--white);
   border-radius: 0.5rem;
   border: 1.5px solid var(--black);
-  max-width: 768px;
-  margin: 0 auto;
+
   height: 48px;
   width: 100%;
   font-size: 1rem;
@@ -26,4 +25,9 @@
 }
 .TodoSearch:focus {
   outline-color: var(--orange);
+}
+@media screen and (max-width: 768px) {
+  .TodoSearch {
+    padding-inline: 1rem;
+  }
 }
