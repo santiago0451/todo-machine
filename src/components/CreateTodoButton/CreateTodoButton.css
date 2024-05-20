@@ -32,9 +32,9 @@
 }
 @media screen and (max-width: 768px) {
   .CreateTodoButton {
-    transform: 0;
+    transform: none;
   }
   .CreateTodoButton:hover {
-    transform: 0;
+    transform: none;
   }
 }
